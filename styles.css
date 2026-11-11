@@ -1,0 +1,215 @@
+body {
+    background-color: #eef3f8;
+    color: #263746;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+header {
+    background-color: #183b56;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+header p {
+    font-size: 16px;
+    margin: 8px;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+
+nav {
+     background-color: #183b56;
+    color: white;
+    text-align: center;
+    padding: 18px 10px;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+
+    box-shadow: 0 2px 6px #cbd5df;
+}
+
+
+
+nav h2 {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #183b56;
+}
+
+
+/* 4. MAIN CONTENT
+   Each section has space around and inside it.
+   The white background separates content from the page.
+*/
+section {
+    background-color: #ffffff;
+    width: 85%;
+    margin: 25px auto;
+    padding: 25px;
+    border: 1px solid #d5e0e9;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px #dce3e9;
+}
+
+
+/* 5. HEADINGS AND PARAGRAPHS
+   Keeps heading colors and text sizes consistent.
+*/
+section h2 {
+    color: #1f5878;
+    font-size: 24px;
+    text-align: left;
+    border-bottom: 2px solid #dce7ef;
+    padding-bottom: 8px;
+}
+
+section h3 {
+    color: #315f79;
+    font-size: 18px;
+}
+
+section p,
+section li {
+    color: #354657;
+    font-size: 16px;
+}
+section img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+#home {
+    text-align: center;
+}
+
+#home img {
+    width: 100%;
+    max-width: 600px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #1f5878;
+    color: white;
+    padding: 12px;
+    border: 1px solid #b9cbd8;
+    text-align: left;
+}
+
+td {
+    background-color: #f5f8fb;
+    color: #263746;
+    padding: 12px;
+    border: 1px solid #b9cbd8;
+}
+
+tr:nth-child(even) td {
+    background-color: #eaf1f6;
+}
+
+a {
+    transition: 0.3s;
+}
+
+.email-button {
+    display: inline-block;
+    background-color: #1f5878;
+    color: white;
+    text-decoration: none;
+    padding: 11px 18px;
+    border-radius: 5px;
+}
+
+.email-button:hover {
+    background-color: #183b56;
+}
+figure {
+    background-color: #f5f8fb;
+    width: 300px;
+    margin: 15px auto;
+    padding: 12px;
+    border: 1px solid #d5e0e9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: 180px;
+    border-radius: 6px;
+}
+
+figcaption {
+    color: #263746;
+    font-size: 15px;
+    padding: 8px;
+}
+footer {
+    background-color: #183b56;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 23px;
+    }
+
+    section {
+        width: 90%;
+        padding: 16px;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 8px;
+    }
+
+    th,
+    td {
+        padding: 7px;
+        font-size: 13px;
+    }
+}
