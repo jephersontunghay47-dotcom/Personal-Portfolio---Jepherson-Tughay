@@ -192,6 +192,58 @@ footer p {
     font-size: 14px;
 }
 
+/* DIGITAL CLOCK */
+#clock {
+    font-size: 15px;
+    color: rgb(224, 102, 102);
+    font-weight: bold;
+}
+
+/* WELCOME BUTTON */
+#welcomeButton {
+    background-color: #1f5878;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#welcomeButton:hover {
+    background-color: #183b56;
+}
+
+/* PROFILE IMAGE INTERACTION */
+#profileImage {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#profileImage.enlarged {
+    transform: scale(1.5);
+}
+
+/* BACK TO TOP */
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #183b56;
+    color: white;
+    border: none;
+    padding: 12px 17px;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#backToTop:hover {
+    background-color: #1f5878;
+}
+
 @media (max-width: 600px) {
     header h1 {
         font-size: 23px;
